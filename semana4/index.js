@@ -2,8 +2,8 @@ const express = require('express')
 const port = 3005
 
 const app = express()
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json()) //JSON
+app.use(express.urlencoded({ extended: true })) // Para quitar el multipart
 
 app.get('/', (request, response) => {
 	const hola = {
