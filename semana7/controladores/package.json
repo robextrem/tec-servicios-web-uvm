@@ -1,0 +1,14 @@
+{
+  "name": "express-es-api",
+  "version": "1.0.0",
+  "description": "API en Express con ES Modules, routers y controladores",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
