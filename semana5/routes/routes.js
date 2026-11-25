@@ -1,6 +1,7 @@
-const { Router } = require('express')
+import { Router } from 'express'
+import controlAprobado from '../middleware/controlAprobado.js'
+
 const router = Router()
-const controlAprobado = require('../middleware/controlAprobado')
 
 router.get('/examen', function(req, res){
 	res.status(200).json({
@@ -45,4 +46,4 @@ router.get("/perrito", function(req, res){
 	})
 })
 
-module.exports = router;
+export default router;

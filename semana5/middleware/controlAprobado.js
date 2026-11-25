@@ -18,4 +18,4 @@ function controlAprobado(req, res, next){
 	
 }
 
-module.exports = controlAprobado
+export default controlAprobado
